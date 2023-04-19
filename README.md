@@ -5,7 +5,7 @@ It accepths 6 objects:
 -> vector<vector> graph - a vector where for every vertex there is a vector of verices to which an edge terminates.
 -> vector<Edge> edges - a vector that holds edges with their weights.
 -> vector<bool> negCycle - a vector where vertices that are in negative cycles are listed.
--> vector<long long>& dis - vector with distances. Remark: initialize it with 
+-> vector<long long> dis - vector with distances. Remark: initialize it with 
 all vertices' paths being equal to maxVal.
 -> int target - initial point, from which we calculate the pathes.
 -> int V - the number of vertices.
